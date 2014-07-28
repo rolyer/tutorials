@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<dbo.Person Id="0" Title="Mr" FirstName="Phillip" LastName="Webb"/>
+	<dbo.Person Id="1" title="Mr" FirstName="Fred" LastName="Bloggs"/>
+</dataset>
