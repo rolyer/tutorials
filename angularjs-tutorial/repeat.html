@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <script src="js/angular.min.js"></script>
+		<script type="text/javascript">
+			function PhoneListCtrl($scope){
+				$scope.phones = [
+				{"name": "Nexus S", "snippet": "Fast just got faster with Nexus S."},
+				{"name": "Motorola XOOM with Wi-Fi", "snippet": "The Next, Next  Generation tablet."},
+				{"name": "MOTOROLA XOOM", "snippet": "The Next, Next Generation tablet."}]
+			}
+		</script>
+    </head>
+    <body >
+		<h1>Phones:</h1>
+		<ul ng-controller="PhoneListCtrl">
+			<li ng-repeat="phone in phones">
+				{{phone.name}}
+				<p>{{phone.snippet}}</p>
+			</li>
+		</ul>
+		
+		<h1>Row Number:</h1>
+		<table>
+			<tr ng-repeat="i in [0, 1, 2, 3]"><td>{{i+1}}</td></tr>
+		</table>
+		
+		<h1>Filter:</h1>
+		 Search: <input ng-model="query" placeholder="Enter any keyword to filter.">
+		<ul ng-controller="PhoneListCtrl">
+			<li ng-repeat="phone in phones | filter:query">
+				{{phone.name}}
+				<p>{{phone.snippet}}</p>
+			</li>
+		</ul>
+    </body>
+</html>
