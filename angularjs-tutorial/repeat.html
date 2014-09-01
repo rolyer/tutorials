@@ -5,9 +5,11 @@
 		<script type="text/javascript">
 			function PhoneListCtrl($scope){
 				$scope.phones = [
-				{"name": "Nexus S", "snippet": "Fast just got faster with Nexus S."},
-				{"name": "Motorola XOOM with Wi-Fi", "snippet": "The Next, Next  Generation tablet."},
-				{"name": "MOTOROLA XOOM", "snippet": "The Next, Next Generation tablet."}]
+							{"name": "Motorola XOOM with Wi-Fi", "snippet": "The Next, Next  Generation tablet.",'year':2011},
+					{"name": "MOTOROLA XOOM", "snippet": "The Next, Next Generation tablet.",'year':2009},
+	
+			
+				{"name": "Nexus S", "snippet": "Fast just got faster with Nexus S.",'year':2012}]
 			}
 		</script>
     </head>
@@ -21,15 +23,15 @@
 		</ul>
 		
 		<h1>Row Number:</h1>
-		<table>
-			<tr ng-repeat="i in [0, 1, 2, 3]"><td>{{i+1}}</td></tr>
+		<table ng-init="numbers=[0,1,2,3]">
+			<tr  ng-repeat="i in numbers"><td>{{i+1}}</td></tr>
 		</table>
 		
-		<h1>Filter:</h1>
+		<h1>Using Filters:</h1>
 		 Search: <input ng-model="query" placeholder="Enter any keyword to filter.">
 		<ul ng-controller="PhoneListCtrl">
-			<li ng-repeat="phone in phones | filter:query">
-				{{phone.name}}
+			<li ng-repeat="phone in phones | filter:query | orderBy:'year'">
+				{{phone.name | uppercase}}
 				<p>{{phone.snippet}}</p>
 			</li>
 		</ul>
