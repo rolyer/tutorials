@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="demoApp">
+    <head>
+        <script src="js/angular.min.js"></script>
+
+        <script type="text/javascript">
+            var demoApp = angular.module("demoApp", []);
+
+            /* example 1:
+
+            demoApp.controller("SimpleControlle", SimpleControlle)
+
+        	function SimpleControlle($scope){
+        		$scope.customers = [
+        			{name:'Zhang Shan', city:'Hangzhou'},
+        			{name:'Li Si', city:'Guangdong'},
+        			{name:'Wang Er', city:'Shenzhen'},
+        			{name:'Ma Zi', city:'Qingdao'}
+        		];
+        	}*/
+
+            // example 2:
+            var controllers = {};
+            controllers.SimpleControlle = function ($scope){
+                $scope.customers = [
+                    {name:'Zhang Shan', city:'Hangzhou'},
+                    {name:'Li Si', city:'Guangdong'},
+                    {name:'Wang Er', city:'Shenzhen'},
+                    {name:'Ma Zi', city:'Qingdao'}
+                ];
+            }
+            demoApp.controller(controllers);
+        </script>
+    </head>
+    <body >
+    	<div ng-controller="SimpleControlle">
+	    	Search:<input type="text" ng-model="query">
+			<ul ng-repeat="cust in customers | filter:query">
+				{{cust.name}} - {{cust.city}}
+			</ul>
+		</div>
+    </body>
+</html>
