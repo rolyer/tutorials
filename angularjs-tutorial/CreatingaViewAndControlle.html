@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <script src="js/angular.min.js"></script>
+
+        <script type="text/javascript">
+        	function SimpleControlle($scope){
+        		$scope.customers = [
+        			{name:'Zhang Shan', city:'Hangzhou'},
+        			{name:'Li Si', city:'Guangdong'},
+        			{name:'Wang Er', city:'Shenzhen'},
+        			{name:'Ma Zi', city:'Qingdao'}
+        		];
+        	}
+        </script>
+    </head>
+    <body >
+    	<div ng-controller="SimpleControlle">
+	    	Search:<input type="text" ng-model="query">
+			<ul ng-repeat="cust in customers | filter:query">
+				{{cust.name}} - {{cust.city}}
+			</ul>
+		</div>
+    </body>
+</html>
