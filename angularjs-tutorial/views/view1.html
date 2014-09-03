@@ -1,0 +1,10 @@
+<div>
+    Search:<input type="text" ng-model="query">
+    <ul ng-repeat="cust in customers | filter:query">
+        {{cust.name}} - {{cust.city}}
+    </ul>
+</div>
+<h1>Add Customer</h1>
+Name: <input type="text" ng-model="newCustomer.name"/><br/>
+City: <input type="text" ng-model="newCustomer.city"/>
+<button ng-click="Add()">Add Customer</button>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="app">
+    <head>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-route.min.js"></script>
+
+        <script type="text/javascript">
+            var app = angular.module("app", ['ngRoute']);
+            
+            app.config(function($routeProvider){
+                $routeProvider.when("/view1",{
+                    controller:'SimpleControlle',
+                    templateUrl:'views/view1.html'
+                }).when('/view2',{
+                    controller:'SimpleControlle',
+                    templateUrl:'views/view2.html'
+                }).otherwise({redirectTo:'/view1'});
+
+            });
+            
+            //controllers
+            var controllers = {};
+            controllers.SimpleControlle = function ($scope) {
+                $scope.customers = [
+                    {name:'Zhang Shan', city:'Hangzhou'},
+                    {name:'Li Si', city:'Guangdong'},
+                    {name:'Wang Er', city:'Shenzhen'},
+                    {name:'Ma Zi', city:'Qingdao'}
+                ];
+            }
+
+            controllers.Add = function ($scope) {
+                $scope.customers.push(
+                    {
+                        name:$scope.newCustomer.name,
+                        city:$scope.newCustomer.city
+                    }
+
+                );
+            }
+            app.controller(controllers);
+            
+        </script>
+    </head>
+    <body>
+        <!-- Placeholder -->
+    	<div ng-view=""></div>
+    </body>
+</html>
