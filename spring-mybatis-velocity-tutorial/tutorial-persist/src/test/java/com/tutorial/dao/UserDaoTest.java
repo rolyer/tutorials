@@ -30,10 +30,20 @@ public class UserDaoTest {
 
 	@Test
 	public void insert() {
-		User user = new User("account", "password", "email", "tel", "im", 0, new Date(), new Date());
+		User user = new User("account", "password", new Date(), new Date());
 		dao.insert(user);
 
 		Assert.assertEquals(true, user.getId().intValue() > 0);
 	}
-
+	
+	@Test
+	public void queryUserById() {
+		User user = dao.queryUserById(1);
+		
+		Assert.assertNotNull(user);
+		
+		User user1 = dao.queryUserById(1);
+		
+		Assert.assertNotNull(user1);
+	}
 }

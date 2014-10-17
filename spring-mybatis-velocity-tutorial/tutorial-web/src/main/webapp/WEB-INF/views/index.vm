@@ -2,10 +2,66 @@
 <html>
 <head>
 	<title>Index</title>
+	<script type="text/javascript" src="$link.getContextPath()/js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+		var PATH = "$link.getContextPath()";
+		
+		$(document).ready(function(){
+			load();
+			
+			$("#account").bind('keydown',function(e){
+			      if(e.keyCode==13){
+			    	  adduser();
+			      }
+		  	});
+			
+			$("button").click(function(){
+				adduser()
+			});
+		});
+		
+		function adduser() {
+			$.ajax({
+				type : "POST",
+				url : PATH + '/add.html?t=0.31572216271',
+				data : {
+					account : $('#account').val(),
+					password : "123456"
+				},
+				dataType : "json",
+				success : function(response, textStatus, xhr) {
+					if (response.success) {
+						load();
+					}
+				},
+				error : function(xhr, textStatus, errorThrown) {}
+			});
+		}
+		
+		function load() {
+			$.ajax({
+				type : "POST",
+				url : PATH + '/load.html',
+				data : {},
+				dataType : "json",
+				success : function(response, textStatus, xhr) {
+					if (response.success) {
+						var datas = response.data;
+            				$('#list').empty();
+            			for ( var i in datas) {
+            				$('#list').append("<li>UserId: "+datas[i].id+", Account: "+datas[i].account+"</li>");
+            			}
+					}
+				},
+				error : function(xhr, textStatus, errorThrown) {}
+			});
+		}
+	</script>
 </head>
 <body>
-
+	<p>Add User</p>
+	<p>Account: <input type="text" id="account" /><button>Add</button></p>
 	<p>Message: ${message}</p>
-	
+	<div id="list"></div>
 </body>
 </html>

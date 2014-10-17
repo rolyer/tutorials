@@ -1,44 +1,7 @@
-CREATE MEMORY TABLE PUBLIC.news (
-id INTEGER IDENTITY NOT NULL PRIMARY KEY,
-account VARCHAR(16),
-category INTEGER,
-title VARCHAR(100), 
-content VARCHAR(1024), 
-status INTEGER,
-gmt_created TIMESTAMP,
-gmt_modified TIMESTAMP
-);
-
-CREATE MEMORY TABLE PUBLIC.admin(
-id INTEGER IDENTITY NOT NULL PRIMARY KEY,
-account VARCHAR(16),
-password VARCHAR(64), 
-gmt_created TIMESTAMP,
-gmt_modified TIMESTAMP
-);
-
 CREATE MEMORY TABLE PUBLIC.user(
 id INTEGER IDENTITY NOT NULL PRIMARY KEY,
 account VARCHAR(16),
 password VARCHAR(64), 
-email VARCHAR(100),
-tel VARCHAR(100),
-im VARCHAR(100),
-status INTEGER,
-gmt_created TIMESTAMP,
-gmt_modified TIMESTAMP
-);
-
-CREATE MEMORY TABLE PUBLIC.game(
-id INTEGER IDENTITY NOT NULL PRIMARY KEY,
-account VARCHAR(16),
-name VARCHAR(45),
-start_time TIMESTAMP,
-server_name VARCHAR(100), 
-url VARCHAR(200),
-category VARCHAR(45),
-platform VARCHAR(100),
-status INTEGER,
 gmt_created TIMESTAMP,
 gmt_modified TIMESTAMP
 );

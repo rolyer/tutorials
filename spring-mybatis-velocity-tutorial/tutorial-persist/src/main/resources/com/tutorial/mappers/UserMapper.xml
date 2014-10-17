@@ -7,10 +7,6 @@
 		<result property="id" column="id" />
 		<result property="account" column="account" />
 		<result property="password" column="password" />
-		<result property="email" column="email" />
-		<result property="tel" column="tel" />
-		<result property="im" column="im" />
-		<result property="status" column="status" />
 		<result property="gmtCreated" column="gmt_created" />
 		<result property="gmtModified" column="gmt_modified" />
 	</resultMap>
@@ -21,23 +17,26 @@
 			INSERT INTO user (
 			account,
 			password,
-			email,
-			tel,
-			im,
-			status,
 			gmt_created,
 			gmt_modified
 			)
 			VALUES (
 			#{account},
 			#{password},
-			#{email},
-			#{tel},
-			#{im},
-			#{status},
 			#{gmtCreated},
 			#{gmtModified}
 			)
 		]]>
 	</insert>
+	
+	 <select id="queryUserById" parameterType="Integer" resultType="user">
+        SELECT account, password, gmt_created, gmt_modified FROM user WHERE id = #{id}
+    </select>
+    
+    <select id="query" resultMap="baseResultMap">
+		<![CDATA[
+			SELECT id, account, password, gmt_created, gmt_modified
+			FROM user
+		]]>
+	</select>
 </mapper>

@@ -1,5 +1,7 @@
 package com.tutorial.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +18,16 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public void add(User user) {
 		userDao.insert(user);
+	}
+
+	@Override
+	public User queryUserById(Integer id) {
+		return userDao.queryUserById(id);
+	}
+
+	@Override
+	public List<User> query() {
+		return userDao.query();
 	}
 
 }

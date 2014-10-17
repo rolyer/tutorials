@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
 	<public.user id="1" account="testuser" password="12345678"
-		status="1" email="test@test.com" tel="057012345678" im="10000"
 		gmt_created="2014-08-09 12:50:40" gmt_modified="2014-08-09 12:50:40" />
 		
 	<public.user id="2" account="testuser2" password="12345678"
-		status="0" email="test2@test.com" tel="057012345678" im="10000"
 		gmt_created="2014-08-09 12:50:40" gmt_modified="2014-08-09 12:50:40" />
 </dataset>

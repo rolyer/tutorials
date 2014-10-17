@@ -36,7 +36,7 @@ public class UserServiceImplTest {
 		EasyMock.expect(userDao.insert(EasyMock.anyObject(User.class))).andReturn(1);
 		EasyMock.replay(userDao);
 		
-		User user =  new User("account", "password", "email", "tel", "im", 1, new Date(), new Date());
+		User user =  new User("account", "password", new Date(), new Date());
 		userService.add(user);
 		
 		EasyMock.verify(userDao);

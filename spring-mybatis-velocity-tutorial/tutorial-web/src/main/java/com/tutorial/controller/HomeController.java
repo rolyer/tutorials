@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.tutorial.dto.Result;
 import com.tutorial.model.User;
 import com.tutorial.service.UserService;
 
@@ -15,12 +17,31 @@ import com.tutorial.service.UserService;
 public class HomeController {
 	@Autowired
 	private UserService userService;
-	
+
 	@RequestMapping("index.html")
-	public void index(ModelMap out){
-		User user =  new User("account", "password", "email", "tel", "im", 1, new Date(), new Date());
-		userService.add(user);
-		
-		out.put("message", "Hello World!");
+	public void index(ModelMap out) {
+		out.put("message", "User List:");
 	}
+
+	@RequestMapping("add.html")
+	public @ResponseBody Result add(String account, String password) {
+		Result result = new Result();
+
+		User user = new User(account, password, new Date(), new Date());
+		userService.add(user);
+
+		result.setSuccess(true);
+		return result;
+	}
+	
+	@RequestMapping("load.html")
+	public @ResponseBody Result load() {
+		Result result = new Result();
+		
+		result.setData(userService.query());
+		result.setSuccess(true);
+		
+		return result;
+	}
+
 }
