@@ -1,0 +1,163 @@
+2014-10-17 10:03:54,374 [WARN] org.apache.velocity.tools.view.XMLToolboxManager.<init> - XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2014-10-17 10:03:54,378 [WARN] org.apache.velocity.tools.view.servlet.ServletToolboxManager.<init> - ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2014-10-17 10:09:40,632 [WARN] org.apache.velocity.tools.view.XMLToolboxManager.<init> - XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2014-10-17 10:09:40,639 [WARN] org.apache.velocity.tools.view.servlet.ServletToolboxManager.<init> - ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2014-10-17 10:12:24,873 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@52a95d3b]
+2014-10-17 10:12:24,879 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:12:24,950 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:13:30,597 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@2dee5c4a]
+2014-10-17 10:13:30,601 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:13:30,602 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:13:32,859 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@106b8cfe]
+2014-10-17 10:13:32,860 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:13:32,864 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:13:52,494 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@25f29d81]
+2014-10-17 10:13:52,495 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:13:52,496 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:14:02,643 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@6de201f1]
+2014-10-17 10:14:02,644 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:14:02,645 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:14:50,837 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@41938609]
+2014-10-17 10:14:50,838 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:14:50,841 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:14:58,009 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@6b36cd23]
+2014-10-17 10:14:58,010 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:14:58,010 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:15:11,424 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@35a18677]
+2014-10-17 10:15:11,425 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:15:11,425 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:16:22,301 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@13f790e]
+2014-10-17 10:16:22,302 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:16:22,302 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:17:15,820 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@422e2875]
+2014-10-17 10:17:15,821 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:17:15,821 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:17:47,635 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4203d350]
+2014-10-17 10:17:47,636 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:17:47,637 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:18:45,362 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7fbdf62]
+2014-10-17 10:18:45,363 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:18:45,368 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:19:05,478 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7667d11c]
+2014-10-17 10:19:05,479 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:19:05,480 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:19:09,689 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@344e1f38]
+2014-10-17 10:19:09,689 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:19:09,691 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test(String), 123456(String), 2014-10-17 10:19:09.681(Timestamp), 2014-10-17 10:19:09.681(Timestamp)
+2014-10-17 10:19:27,754 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4993380]
+2014-10-17 10:19:27,754 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:19:27,754 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:19:31,627 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5aae171]
+2014-10-17 10:19:31,628 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:19:31,629 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test(String), 123456(String), 2014-10-17 10:19:31.622(Timestamp), 2014-10-17 10:19:31.622(Timestamp)
+2014-10-17 10:20:31,895 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@38aba14e]
+2014-10-17 10:20:31,895 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:20:31,896 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:20:44,939 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@39e46435]
+2014-10-17 10:20:44,939 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:20:44,940 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:20:46,784 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@2c2a4dd]
+2014-10-17 10:20:46,785 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:20:46,785 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: asdas(String), 123456(String), 2014-10-17 10:20:46.779(Timestamp), 2014-10-17 10:20:46.779(Timestamp)
+2014-10-17 10:21:33,998 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@57c06b64]
+2014-10-17 10:21:33,998 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:21:33,999 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:21:36,234 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@55cd4b1f]
+2014-10-17 10:21:36,234 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:21:36,235 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: sads(String), 123456(String), 2014-10-17 10:21:36.229(Timestamp), 2014-10-17 10:21:36.229(Timestamp)
+2014-10-17 10:22:05,385 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@3585d6cc]
+2014-10-17 10:22:05,386 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:22:05,391 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: sads(String), 123456(String), 2014-10-17 10:22:04.042(Timestamp), 2014-10-17 10:22:04.043(Timestamp)
+2014-10-17 10:22:36,901 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@65e8836e]
+2014-10-17 10:22:36,901 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:22:36,902 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:22:47,532 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@13e50592]
+2014-10-17 10:22:47,533 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:22:47,537 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: (String), 123456(String), 2014-10-17 10:22:47.487(Timestamp), 2014-10-17 10:22:47.487(Timestamp)
+2014-10-17 10:34:49,710 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@139a71eb]
+2014-10-17 10:34:49,711 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:34:49,712 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:34:54,091 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@72a033fb]
+2014-10-17 10:34:54,091 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:34:54,092 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:34:54,947 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@99049b5]
+2014-10-17 10:34:54,948 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:34:54,949 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:34:55,416 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@656adce6]
+2014-10-17 10:34:55,417 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:34:55,417 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:34:55,905 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@b239f7f]
+2014-10-17 10:34:55,906 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:34:55,907 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:34:56,064 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@202b12bb]
+2014-10-17 10:34:56,064 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:34:56,065 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:34:56,243 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@43d9fcea]
+2014-10-17 10:34:56,245 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:34:56,246 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:37:03,387 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@50d9e113]
+2014-10-17 10:37:03,389 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:37:03,392 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:37:28,789 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@63a55455]
+2014-10-17 10:37:28,790 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:37:28,791 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:37:37,683 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1e38ab22]
+2014-10-17 10:37:37,683 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:37:37,684 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test(String), 123456(String), 2014-10-17 10:37:37.674(Timestamp), 2014-10-17 10:37:37.674(Timestamp)
+2014-10-17 10:37:37,762 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@e807aa9]
+2014-10-17 10:37:37,762 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:37:37,763 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:37:45,017 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5eab6c71]
+2014-10-17 10:37:45,018 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:37:45,019 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test2(String), 123456(String), 2014-10-17 10:37:45.013(Timestamp), 2014-10-17 10:37:45.013(Timestamp)
+2014-10-17 10:37:45,080 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1341c91b]
+2014-10-17 10:37:45,081 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:37:45,081 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:37:52,716 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5a106d0e]
+2014-10-17 10:37:52,716 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:37:52,717 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test4(String), 123456(String), 2014-10-17 10:37:52.711(Timestamp), 2014-10-17 10:37:52.711(Timestamp)
+2014-10-17 10:37:52,776 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@3afa1902]
+2014-10-17 10:37:52,776 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:37:52,776 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:38:00,415 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@75c0dcaf]
+2014-10-17 10:38:00,415 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:38:00,415 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:38:08,310 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@6f3cc3ac]
+2014-10-17 10:38:08,310 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:38:08,311 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:39:45,169 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@6f5d6628]
+2014-10-17 10:39:45,170 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:39:45,172 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:39:47,338 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@648e6c29]
+2014-10-17 10:39:47,338 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:39:47,339 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:39:54,684 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7b7423ae]
+2014-10-17 10:39:54,685 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:39:54,686 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:39:59,792 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@74686763]
+2014-10-17 10:39:59,792 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:39:59,793 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test5(String), 123456(String), 2014-10-17 10:39:59.788(Timestamp), 2014-10-17 10:39:59.788(Timestamp)
+2014-10-17 10:39:59,856 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@176055c6]
+2014-10-17 10:39:59,856 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:39:59,856 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:41:35,792 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1fc9e625]
+2014-10-17 10:41:35,793 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:41:35,794 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:41:39,441 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7657576b]
+2014-10-17 10:41:39,441 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:41:39,442 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test6(String), 123456(String), 2014-10-17 10:41:39.436(Timestamp), 2014-10-17 10:41:39.436(Timestamp)
+2014-10-17 10:41:39,495 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@72860459]
+2014-10-17 10:41:39,496 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:41:39,496 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:41:44,475 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@33dac144]
+2014-10-17 10:41:44,475 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:41:44,476 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test7(String), 123456(String), 2014-10-17 10:41:44.47(Timestamp), 2014-10-17 10:41:44.47(Timestamp)
+2014-10-17 10:41:44,530 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@26d65c7e]
+2014-10-17 10:41:44,530 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:41:44,530 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
+2014-10-17 10:42:00,188 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7e0abd9f]
+2014-10-17 10:42:00,188 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: INSERT INTO user ( account, password, gmt_created, gmt_modified ) VALUES ( ?, ?, ?, ? ) 
+2014-10-17 10:42:00,189 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: test8(String), 123456(String), 2014-10-17 10:42:00.184(Timestamp), 2014-10-17 10:42:00.184(Timestamp)
+2014-10-17 10:42:00,263 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@ef25945]
+2014-10-17 10:42:00,263 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==>  Preparing: SELECT id, account, password, gmt_created, gmt_modified FROM user 
+2014-10-17 10:42:00,264 [DEBUG] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug - ==> Parameters: 
