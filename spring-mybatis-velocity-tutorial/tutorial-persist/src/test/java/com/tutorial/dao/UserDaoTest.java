@@ -41,9 +41,5 @@ public class UserDaoTest {
 		User user = dao.queryUserById(1);
 		
 		Assert.assertNotNull(user);
-		
-		User user1 = dao.queryUserById(1);
-		
-		Assert.assertNotNull(user1);
 	}
 }

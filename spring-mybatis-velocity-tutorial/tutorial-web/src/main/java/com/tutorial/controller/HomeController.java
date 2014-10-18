@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.tutorial.dto.Result;
@@ -23,7 +24,7 @@ public class HomeController {
 		out.put("message", "User List:");
 	}
 
-	@RequestMapping("add.html")
+	@RequestMapping(value="add.html", method=RequestMethod.POST)
 	public @ResponseBody Result add(String account, String password) {
 		Result result = new Result();
 
@@ -34,7 +35,7 @@ public class HomeController {
 		return result;
 	}
 	
-	@RequestMapping("load.html")
+	@RequestMapping(value="load.html", method=RequestMethod.POST)
 	public @ResponseBody Result load() {
 		Result result = new Result();
 		
