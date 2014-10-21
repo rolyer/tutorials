@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Details</title>
+</head>
+<body>
+	<h1>UrlRewriteFilter Test:</h1>
+	<p>UserId is ${id}!</p>
+</body>
+</html>

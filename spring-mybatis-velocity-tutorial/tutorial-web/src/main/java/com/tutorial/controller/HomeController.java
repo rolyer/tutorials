@@ -24,6 +24,12 @@ public class HomeController {
 		out.put("message", "User List:");
 	}
 
+	@RequestMapping("user.html")
+	public void user(ModelMap out, String id) {
+		out.put("id", id);
+	}
+	
+
 	@RequestMapping(value="add.html", method=RequestMethod.POST)
 	public @ResponseBody Result add(String account, String password) {
 		Result result = new Result();
