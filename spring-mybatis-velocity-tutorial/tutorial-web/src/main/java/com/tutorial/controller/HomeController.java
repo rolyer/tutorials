@@ -26,7 +26,10 @@ public class HomeController {
 
 	@RequestMapping("user.html")
 	public void user(ModelMap out, String id) {
-		out.put("id", id);
+		
+		User user = userService.queryUserById(Integer.parseInt(id));
+		
+		out.put("user", user);
 	}
 	
 
