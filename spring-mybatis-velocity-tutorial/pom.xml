@@ -79,6 +79,23 @@
 				<version>${spring.version}</version>
 			</dependency>
 
+			<!-- Spring AOP + AspectJ -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-aop</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.aspectj</groupId>
+				<artifactId>aspectjrt</artifactId>
+				<version>1.6.11</version>
+			</dependency>
+			<dependency>
+				<groupId>org.aspectj</groupId>
+				<artifactId>aspectjweaver</artifactId>
+				<version>1.6.11</version>
+			</dependency>
+
 			<!-- mybatis lib dependencys -->
 			<dependency>
 				<groupId>org.mybatis</groupId>
@@ -186,7 +203,7 @@
 				<artifactId>slf4j-api</artifactId>
 				<version>1.7.7</version>
 			</dependency>
-			
+
 			<!-- easymock library dependecy -->
 			<dependency>
 				<groupId>org.easymock</groupId>
@@ -215,7 +232,7 @@
 				<artifactId>commons-lang</artifactId>
 				<version>2.5</version>
 			</dependency>
-			
+
 			<!-- jackson -->
 			<dependency>
 				<groupId>org.codehaus.jackson</groupId>
@@ -227,33 +244,33 @@
 				<artifactId>jackson-mapper-asl</artifactId>
 				<version>1.9.13</version>
 			</dependency>
-		    <dependency>
-		        <groupId>com.fasterxml.jackson.core</groupId>
-		        <artifactId>jackson-core</artifactId>
-		        <version>2.4.1</version>
-		    </dependency>
-		    <dependency>
-		        <groupId>com.fasterxml.jackson.core</groupId>
-		        <artifactId>jackson-databind</artifactId>
-		        <version>2.4.1.1</version>
-		    </dependency>
-			
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-core</artifactId>
+				<version>2.4.1</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>2.4.1.1</version>
+			</dependency>
+
 			<!-- springcache-mybatis3-memcached dependency -->
 			<dependency>
 				<groupId>com.google.code.simple-spring-memcached</groupId>
-            	<artifactId>spring-cache</artifactId>
+				<artifactId>spring-cache</artifactId>
 				<version>3.0.2</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.google.code.simple-spring-memcached</groupId>
-            	<artifactId>xmemcached-provider</artifactId>
+				<artifactId>xmemcached-provider</artifactId>
 				<version>3.0.2</version>
 			</dependency>
 			<dependency>
-			    <groupId>org.tuckey</groupId>
-			    <artifactId>urlrewritefilter</artifactId>
-			    <version>4.0.3</version>
+				<groupId>org.tuckey</groupId>
+				<artifactId>urlrewritefilter</artifactId>
+				<version>4.0.3</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
