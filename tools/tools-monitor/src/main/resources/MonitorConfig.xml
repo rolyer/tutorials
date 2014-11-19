@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Monitors xmlns="http://www.gtxh.com/monitor/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.gtxh.com/monitor/MonitorConfig.xsd">
+
+	<FolderMonitor>
+		<Name>TestFolder</Name>
+		<Path><![CDATA[/home/rolyer/temp]]></Path>
+		<FileMonitor>
+			<File>*.xlsx</File>
+		</FileMonitor>
+		<FileMonitor>
+			<File>*.log</File>
+		</FileMonitor>
+	</FolderMonitor>
+
+	<Property name="AutoStartMonitor" value="true" />
+
+</Monitors>
