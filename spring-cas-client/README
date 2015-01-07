@@ -1,5 +1,9 @@
-创建项目：
+A Simple CAS Client Web App Whit Spring MVC
+=========
+
+Create project use Maven：
 mvn archetype:create -DgroupId=com.scc -DartifactId=spring-cas-client -DpackageName=com.scc.web -DarchetypeArtifactId=maven-archetype-webapp
+
 
 
 
