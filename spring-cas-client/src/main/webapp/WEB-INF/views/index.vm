@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>CAS Client Home</title>
+    <link rel="icon" rel="shortcut icon" href="$link.getContextPath()/images/favicon.png?v=1.0.0">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="$link.getContextPath()/css/style.css?ver=3.0">
+</head>
+<body>
+    <h1>${msg}</h1>
+</body>
+</html>
