@@ -1,0 +1,19 @@
+Updated and tested code to work with these dependencies:
+Node: 0.4.5
+NPM: 0.3.18
+Express: 2.2.2
+Faye: 0.5.5
+
+Requires Node and NPM
+
+Requires Express and Faye
+npm install express@2.2.2
+npm install faye
+
+Once installed, run node server.js to start the server on port 8000
+
+In a browser open localhost:8000/client.html
+
+post to server with form data:
+curl -X POST -H "Content-Type:application/x-www-form-urlencoded" -
+d message=hello http://localhost:8000/message
