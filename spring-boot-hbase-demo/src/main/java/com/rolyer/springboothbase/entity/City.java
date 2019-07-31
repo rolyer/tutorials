@@ -12,6 +12,8 @@ public class City {
     private String name;
     private String code;
     private String parent;
+    private Long created;
+    private Long updated;
 
     public City() {
     }
@@ -44,5 +46,21 @@ public class City {
 
     public void setParent(String parent) {
         this.parent = parent;
+    }
+
+    public Long getCreated() {
+        return created;
+    }
+
+    public void setCreated(Long created) {
+        this.created = created;
+    }
+
+    public Long getUpdated() {
+        return updated;
+    }
+
+    public void setUpdated(Long updated) {
+        this.updated = updated;
     }
 }
