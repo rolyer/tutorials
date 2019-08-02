@@ -38,7 +38,7 @@ public class CityRepositoryImpl implements CityRepository {
     private byte[] updated = Bytes.toBytes("updated");
 
     @Override
-    public City save(City entity) {
+    public City create(City entity) {
         return hbaseTemplate.execute("city", (HTableInterface table) -> {
 
             Put p = new Put(Bytes.toBytes(entity.getCode()));
@@ -66,7 +66,7 @@ public class CityRepositoryImpl implements CityRepository {
 
     @Override
     public City update(City city) {
-        return save(city);
+        return create(city);
     }
 
     @Override

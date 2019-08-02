@@ -27,7 +27,9 @@ public class CityController {
     @PostMapping("/save")
     @ResponseBody
     public ResponseEntity<City> save(@RequestBody City city) {
-        City c = cityService.save(city);
+        city.setCreated(System.currentTimeMillis());
+        city.setUpdated(System.currentTimeMillis());
+        City c = cityService.createOne(city, "city", "info", "code");
 
         return new ResponseEntity<>(c, HttpStatus.OK);
     }
@@ -35,23 +37,22 @@ public class CityController {
     @PostMapping("/update")
     @ResponseBody
     public ResponseEntity<City> update(@RequestBody City city) {
-        City c = cityService.update(city);
+        city.setUpdated(System.currentTimeMillis());
+        City c = cityService.createOne(city, "city", "info", "code");
 
         return new ResponseEntity<>(c, HttpStatus.OK);
     }
 
     @PostMapping("/delete")
     @ResponseBody
-    public ResponseEntity<City> delete(@RequestBody City city) {
-        City c = cityService.save(city);
-
-        return new ResponseEntity<>(c, HttpStatus.OK);
+    public ResponseEntity<Boolean> delete(String code) {
+        return new ResponseEntity<>(false, HttpStatus.OK);
     }
 
     @GetMapping
     @ResponseBody
     public ResponseEntity<List<City>> list() {
-        List<City> cities = cityService.list();
+        List<City> cities = cityService.searchAll("city", "info", City.class);
 
         return new ResponseEntity<>(cities, HttpStatus.OK);
     }

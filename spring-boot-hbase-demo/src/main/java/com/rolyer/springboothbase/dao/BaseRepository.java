@@ -16,7 +16,7 @@ public interface BaseRepository<T> {
      * @param entity
      * @return
      */
-    T save(T entity);
+    T create(T entity);
 
     boolean delete(String rowName);
 
