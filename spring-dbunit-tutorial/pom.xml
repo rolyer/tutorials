@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<spring.version>3.1.2.RELEASE</spring.version>
-		<hibernate.core.version>4.1.0.Final</hibernate.core.version>
+		<hibernate.core.version>5.4.24.Final</hibernate.core.version>
 	</properties>
 	<repositories>
 		<repository>
