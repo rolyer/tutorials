@@ -14,7 +14,7 @@
 		<encoding>UTF-8</encoding>
 		<java.source.version>1.6</java.source.version>
 		<java.target.version>1.6</java.target.version>
-		<spring.version>4.1.1.RELEASE</spring.version>
+		<spring.version>5.3.18</spring.version>
 		<package.environment>dev</package.environment>
 	</properties>
 
